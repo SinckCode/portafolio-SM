@@ -1,0 +1,136 @@
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+    
+}
+
+
+/* ============= TEXTO ============== */
+
+.texto {
+    position: absolute;
+    left: calc(50% - 11rem);
+    left: 46.2%;
+    bottom: 56%;
+}
+
+h1{
+    float: left;
+    position: relative;
+    font-size: 2.5rem;
+}
+
+h1 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #1F2122;
+    border-left: 1px solid #000;
+
+    animation: maquina 3s infinite alternate;
+}
+
+@keyframes maquina {
+    from{
+        width:100%
+    }
+    to{
+        width: 0%;
+    }
+}
+
+/* ============= CTA ============= */
+
+.cta {
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 18rem;
+    border-radius: 12rem 12rem 0 0;
+    bottom: 8%;
+}
+
+.separa {
+    margin: 1rem;
+}
+
+
+/* ============= header Social ============= */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ============= ME ============= */
+
+.me {
+ background: linear-gradient(var(--color-primary), transparent) ;
+ width: 22rem;
+ height: 30rem;
+ position: absolute;
+ left: calc(50% - 11rem);
+ margin-top: 4rem;
+ border-radius: 12rem 12rem 0 0;
+ padding: 5rem 1.5rem 1.5rem;
+}
+
+/* ============= Baje ============= */
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
+
+@media screen and (max-width: 1024px) {
+   
+    .texto {
+        left: 43%;
+        bottom: 47%;
+    }
+
+    h1{
+        font-size: 2rem !important;
+    }
+}
+
+/* ============== MEDIA QUERIES (SMALL DEVICES) ================== */
+
+@media screen and (max-width: 600px) {
+    
+    .header__socials,
+    .scroll__down{
+        display: none;
+    }
+
+    .texto {
+        left: 39%;
+        bottom: 47%;
+    }
+
+    h1{
+        font-size: 1.5rem !important;
+    }
+}

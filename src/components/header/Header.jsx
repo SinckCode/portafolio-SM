@@ -5,7 +5,7 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import {AiFillDownCircle} from 'react-icons/ai'
 import Videofondo from "../../video/videofondo.mp4"
-import IMG1 from '../../assets/fondo.svg'
+import IMG1 from '../../assets/fondo.jpg'
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
      <div className="container header__container">
        <div className="texto">
        
-       <h1>SINCK<span>&#160;</span></h1>
+       <h1>OPTISTOCK<span>&#160;</span></h1>
       
        </div>
        {/** 

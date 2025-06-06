@@ -5,28 +5,25 @@ import {BiCheck}from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>Lo que ofrezco</h5>
+      <h5>Lo que ofrecemos</h5>
       <h2>Servicios</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3> Diseño </h3>
+            <h3> Gestión Multi Almacenes </h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='services__list-icon'/>
-              <p>Diseños para cualquier Red Social (Animados).</p>
+              <p>Descripción detallada y beneficios.</p>
             </li>
             <li>
               <BiCheck className='services__list-icon'/>
-              <p>Diseños de páginas WEB.</p>
+              <p>Imágenes o gráficos ilustrativos.</p>
             </li>
-            <li>
-              <BiCheck className='services__list-icon'/>
-              <p>Diseño de imagen corporativa para Negocios.</p>
-            </li>
+           
             
             
           </ul>
@@ -38,22 +35,19 @@ const Services = () => {
       
         <article className="service">
           <div className="service__head">
-            <h3> Desarrollo WEB</h3>
+            <h3> Análisis ABC Automatizado</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='services__list-icon'/>
-              <p>Construcción y programación de Páginas Web</p>
+              <p>Descripción de cómo OptiStock realiza el análisis ABC y por qué es crucial.</p>
             </li>
             <li>
               <BiCheck className='services__list-icon'/>
-              <p>Optimización de Páginas Web.</p>
+              <p>Casos de uso y escenarios prácticos.</p>
             </li>
-            <li>
-              <BiCheck className='services__list-icon'/>
-              <p>Rediseño y Contrucción de Páginas Web.</p>
-            </li>
+            
             
             
           </ul>
@@ -64,22 +58,41 @@ const Services = () => {
       
         <article className="service">
           <div className="service__head">
-            <h3>Desarrollo de Contenido</h3>
+            <h3>Notificaciones Inteligentes</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='services__list-icon'/>
-              <p>Creación de Contenido para Redes Sociales.</p>
+              <p>Explicación de cómo las notificaciones proactivas mejoran la toma de decisiones.</p>
             </li>
             <li>
               <BiCheck className='services__list-icon'/>
-              <p>TikToks, Insta Reel, Youtube y Video Profesional.</p>
+              <p>Testimonios de clientes que han experimentado beneficios.</p>
+            </li>
+            
+            
+            
+          </ul>
+        </article>
+
+        {/* FIN DE WEB DEVELOPMENT*/}
+      
+        <article className="service">
+          <div className="service__head">
+            <h3>Integración de Dispositivos de Escaneo</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='services__list-icon'/>
+              <p>Información sobre la facilidad de integración con dispositivos de escaneo.</p>
             </li>
             <li>
               <BiCheck className='services__list-icon'/>
-              <p>Servicio de Community y Content Manager. </p>
+              <p>Ejemplos de cómo esta característica mejora la precisión.</p>
             </li>
+            
             
             
           </ul>

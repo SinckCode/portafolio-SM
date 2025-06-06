@@ -11,7 +11,7 @@ const About = () => {
       
       
       <h5 className="spacetxt">Un poco</h5>
-      <h2 className="spacetxt">Acerca de Mi</h2>
+      <h2 className="spacetxt">Acerca de Nosotros</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -26,12 +26,12 @@ const About = () => {
           <article className='about__card '>
           <FaAward className='about__icon' />
            <h5>Experiencia</h5>
-           <small>+2 años de experiencia en proyectos personales</small>
+           <small>+2 años de desarrollo y optimización continua</small>
           </article>  
           <article className='about__card '>
          <FiUsers className='about__icon' />
            <h5>Clientes</h5>
-           <small>+10 clientes satisfechos</small>
+           <small>Satisfaciendo a empresas</small>
           </article>
           <article className='about__card'>
           <VscFolderLibrary className='about__icon ' />
@@ -42,8 +42,7 @@ const About = () => {
         </div>
 
         <p>
-          Soy un estudiante de una Lincecitura en Computación y Sistemas enla Universidad Popular Autónoma del Estado de Puebla (UPAEP), con cierta experiencia previa en la programación y diferentes tecnologías, entusiasta por seguir aprendiendo y creciendo en el ambito laboral.  
-        </p>
+        OptiStock, la solución integral para el control de inventarios que impulsa tu negocio hacia la eficiencia y la rentabilidad. Con OptiStock, experimenta la gestión de almacenes de próxima generación, ofreciendo análisis ABC automatizados, integración de dispositivos de escaneo y la capacidad de acceder a tus datos desde cualquier dispositivo. Aprovecha la potencia de la optimización y haz que cada movimiento cuente. ¡OptiStock, donde la eficiencia encuentra su nombre en cada estante!        </p>
         <a href="#contact" className='btn btn-primary'>Hablemos!</a>
         </div>
       </div>
